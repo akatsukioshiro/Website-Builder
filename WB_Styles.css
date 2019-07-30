@@ -1,0 +1,62 @@
+body
+{
+margin:0;
+}
+navbar
+{
+	height:100%;
+	width:5vw;
+	background:rgba(0,0,0,0.8);
+	position:absolute;
+	right:0;
+	margin:0;
+}
+.navbutton
+{
+	min-height:5vw;
+	background:rgba(0,0,0,1);
+	display:block;
+	line-height:5vw;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+.navbutton:hover
+{
+	background:rgba(255,255,255,1);
+	color:black;
+}
+.navbutton_big
+{
+	min-height:300px;
+	max-height:400pxvw;
+	background:rgba(0,0,0,1);
+	display:block;
+	padding-top:1vw;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	display:none;
+}
+fbody
+{
+	height:100%;
+	width:95vw;
+	background:rgba(0,0,0,0.05);
+	position:fixed;
+	left:0;
+	margin:0;
+}
+#rgb_box
+{
+	min-height:300px;
+	max-height:300px;
+	width:100%;
+	background:rgba(255,255,255,1);
+	display:block;
+	margin-top:1vw;
+	
+	
+	
+}
